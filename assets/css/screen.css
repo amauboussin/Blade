@@ -1906,19 +1906,28 @@ body:not(.post-template) .post-title {
 /* ==========================================================================
    13. Media Queries - Smaller than 500px
    ========================================================================== */
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 730px) {
+
     div.nav-links{
         float: left ;
         padding-left: 0px;
         margin-top: 0px;
         padding-bottom: 10px;
+        clear: both;
     }
+    /*set display flex */
+
 }
 @media only screen and (max-width: 500px) {
 
     .main-header {
         margin-bottom: 15px;
         height: 40vh;
+    }
+
+    .page-title{
+        margin-top: 0;
+        margin-bottom: 10px;
     }
 
     .no-cover.main-header {
