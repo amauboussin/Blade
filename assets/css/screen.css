@@ -252,6 +252,10 @@ a:hover {
     color: #111;
 }
 
+.invisible-link{
+    text-decoration: none;
+}
+
 p, ul, ol, dl {
     -webkit-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
     -moz-font-feature-settings: 'liga' 1, 'onum' 1, 'kern' 1;
